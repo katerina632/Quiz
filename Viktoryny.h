@@ -11,8 +11,12 @@ struct Question {
 
 struct Quiz {
 	string NameViktoryna;
-	Question * questions;
+	Question  questions[5];
 };
 
 void addQuiz();
 void showQuiz();
+void init();
+void insertQuiz(Quiz quiz );
+void passWuiz();
+
